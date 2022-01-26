@@ -1,0 +1,91 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contact Me</title> 
+        <link rel="stylesheet" href="style.css">       
+    </head>
+    <body> 
+        <div id="container">
+            <header>
+                <nav>
+                    <a href="index.html" style="padding-left: 15px;" target="_blank"> Home </a>
+                    <a href="Portfolio.html" style="padding-left: 15px;"target="_blank"> Portfolio </a>
+                    <a href="About.html" style="padding-left: 15px;"target="_blank"> About Me </a>
+                </nav>
+            </header>-->
+
+            
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset='utf-8'>    
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                <title>Home</title> 
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+            
+            <!-- Navigation Bar -->
+            
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+                    <a href="" class="navbar-brand">
+                        <img src="./assets/shelve.jpg" alt="Company Logo" height="50" >
+                        </a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navContent">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            
+                        <div class="collapse navbar-collapse" id="navContent">
+                            <ul class="navbar-nav">
+                                <li class="navbar-item"><a href="index.html" class="nav-link"> Home</a></li>
+                               <li class="navbar-item"><a href="Portfolio.html" class="nav-link"> Portfolio</a></li>
+                                <li class="navbar-item"><a href="About.html" class="nav-link"> About Me</a></li>
+                                
+                            </ul>
+                        </div>
+                </nav>    
+            <br>
+            <br>
+            <section id="portfolio" class="bg-dark">
+                <div class="container-fluid py-5">
+            <h1 style="color:rgb(214, 70, 106)" align="center"> Contact Me </h1>
+            <form action=" " method="get">
+                <label for="aaa" style="padding-left: 25px;" > First Name </label> 
+                <input id="aaa" type="text" name="firstName" > <br><br>
+            
+                <label for="bbb" style="padding-left: 26px;" > Last Name </label> 
+                <input id="bbb" type="text" name="lastName" > <br><br>
+            
+                <label for="ccc" style="padding-left: 59px;" > email </label> 
+                <input id="ccc" type="email" name="email" > <br><br>
+
+                <label for="ddd" style="padding-left: 39px;" > Message </label> 
+                <textarea id="ddd" cols="50" rows="7" name="Message" > Enter your message here </textarea> <br><br><br>
+
+                <label style="padding-left: 26px;" >Would you recommend our website?</label><br>
+                <input id="eee" type="radio" name="RadioButton" value="Yes" >
+                <label for="eee" >Yes</label> <br>
+
+                <input id="fff" type="radio" name="RadioButton" value="No" >
+                <label for="fff" >No</label><br><br>
+
+                <label style="padding-left: 26px;">How would you like to be contacted?</label><br>
+                <input id="ggg" type="checkbox" name="CheckPhone" value="Phone">
+                <label for="ggg">Phone</label><br>
+
+                <input id="hhh" type="checkbox" name="Checkemail" value="email">
+                <label for="hhh">email</label><br>
+
+                <input id="iii" type="checkbox" name="CheckByMail" value="ByMail">
+                <label for="iii">By mail</label><br><br>
+                
+                
+                <button type="submit"> Send </button>
+
+            </form>
+        </div>
+        
+       </section> 
+    </body>
+</html>
