@@ -1,7 +1,8 @@
 .mainHeader{
     height: 100vh;
     min-height: 40em;
-   background-image: url(./assets/shelve.jpg);
+    /*bg image does not show globally but works locally.*/
+  /* background-image: url(./assets/shelve.jpg);*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
